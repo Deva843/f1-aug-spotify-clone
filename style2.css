@@ -17,6 +17,7 @@
     display: flex;
     align-items: flex-end;
     gap: 0.7rem;
+    position: relative;
 
 }
 #album-playlist>p{
@@ -121,6 +122,10 @@ text-transform: uppercase;
     font-weight: 700;
     line-height: normal;
     text-align: right;
+}
+.genre-img{
+    margin-bottom: -40px;
+
 }
 
 .genre-foot {
@@ -257,6 +262,9 @@ text-transform: uppercase;
         /* line-height: 1rem; */
         margin: 10px;
     }
+    .genre-img{
+        margin-bottom:20px;
+    }
 }
 /* Small screens */
 @media screen and (min-width: 592px) and (max-width: 767px) {
@@ -313,6 +321,9 @@ text-transform: uppercase;
     }
     .btns{
         width: 4.6rem;
+    }
+    .genre-img{
+        margin-bottom: 10px;
     }
     .genre-short-text{
         display: none;
